@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.extentreports.TestListeners"/>
+    </listeners>
+    <test name="C:/Users/alios/IdeaProjects/ali-testng-framework">
+        <parameter name="url" value="https://rc.alpha-sense.com/doc/PR-386ea743f2a90399fb0e4300ddf37d0697abc743"></parameter>
+        <classes>
+            <class name="tests.UiTesting"></class>
+            <class name="tests.ApiTesting"></class>
+        </classes>
+    </test>
+</suite>
